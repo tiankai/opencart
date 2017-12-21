@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /var/www/html/opencart
+
+/usr/local/bin/php upload/install/cli_install.php install --db_hostname db --db_username root --db_password root --db_database opencart --db_prefix oc_ --username admin --password admin --email admin@example.com --http_server http://localhost/opencart/upload/
